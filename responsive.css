@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+	.st-logo{
+		margin: 0 auto;
+	}
+
+	.vl-border{
+		display: none;
+	}
+
+	.q-welcome{
+		text-align: center;
+		margin-top: 10px;
+	}
+	.q-address{
+		text-align: center;
+	}
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #EFF0F2;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+	font-weight: bold;
+	color:#2B398F;
+}
+
+.q-card{
+	background-color: #ffffff;
+	margin-top: 30px;
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+
+.q-card .st-logo{
+	width: 150px;
+}
+
+.vl-border{
+	width: 2px;
+	height: 75px;
+	background-color: #2B398F;
+	margin-left: 15px;
+}
+
+.q-welcome{
+	margin-left: 15px;
+	color: #2b398f;
+}
+
+.q-address{
+	margin-left: 15px;
+    color: #2b398f;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.q-time{
+	position: absolute;
+	padding: 17px 0;
+	right: 0;
+}
+
+.q-time-body{
+	position: relative;
+}
+
+.q-token-card{
+	background-color: #ffffff;
+	margin-top: 15px;
+	border-radius: 15px;
+	height: 10.75vh;
+}
+
+.q-token-header{
+	background-color: #2B398F;
+	padding: 0 30px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	color: #ffffff;
+	font-weight: bold;
+	width: 100%;
+}
+
+.q-token-header p{
+	margin-bottom: unset;
+	line-height: 35px;
+	display: inline-block;
+}
+
+.q-token-header p+p{
+	float: right;
+}
+
+.token-info{
+	padding: 15px 30px;
+	width: 100%;
+}
+
+.token-info h3{
+	display: inline-block;
+}
+
+.token-info h3+h3{
+	float: right;
+}
+
+.q-ad{
+	background-color: #ffffff;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 60.5vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.q-ad img{
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
