@@ -18,6 +18,7 @@
 		overflow: unset;
 	}
 	.q-token-card{
-		max-height: unset;
+		min-height: unset;
+		margin-bottom: 15px;
 	}
 }

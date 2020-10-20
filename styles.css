@@ -15,6 +15,7 @@ body{
 h1, h2, h3{
 	font-weight: bold;
 	color:#2B398F;
+	margin-bottom: 0;
 }
 
 .q-card{
@@ -61,7 +62,7 @@ h1, h2, h3{
 	background-color: #ffffff;
 	margin-top: 15px;
 	border-radius: 15px;
-	max-height: 10.75vh;
+	min-height: 10.75vh;
 	overflow: hidden;
 }
 
@@ -86,7 +87,7 @@ h1, h2, h3{
 }
 
 .token-info{
-	padding: 15px 30px;
+	padding: 7px 30px;
 	width: 100%;
 }
 
