@@ -61,7 +61,8 @@ h1, h2, h3{
 	background-color: #ffffff;
 	margin-top: 15px;
 	border-radius: 15px;
-	height: 10.75vh;
+	max-height: 10.75vh;
+	overflow: hidden;
 }
 
 .q-token-header{

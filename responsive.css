@@ -14,4 +14,10 @@
 	.q-address{
 		text-align: center;
 	}
+	body{
+		overflow: unset;
+	}
+	.q-token-card{
+		max-height: unset;
+	}
 }
