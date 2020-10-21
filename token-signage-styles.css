@@ -1,0 +1,23 @@
+.token-type{
+	background-color: #2B398F;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.token-icon{
+	color:#ffffff;
+	line-height: 200px;
+	font-size: 85px;
+}
+
+.token-type-label{
+    width: 100%;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.q-card-modified{
+	padding: 30px;
+}
